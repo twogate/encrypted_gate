@@ -27,5 +27,4 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "activesupport", ">= 4.2"
   spec.add_development_dependency "config", "~> 1.6"
-  spec.add_development_dependency "rspec", "~> 3.0"
 end
