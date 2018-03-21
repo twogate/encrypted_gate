@@ -47,6 +47,7 @@ module EncryptedGate
       ActiveSupport::MessageEncryptor.new(
         key,
         cipher:     Settings.encryptor.cipher,
+        digest:     Settings.encryptor.digest,
         serializer: Marshal,
       )
     end
