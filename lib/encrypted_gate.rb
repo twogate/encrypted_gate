@@ -4,8 +4,6 @@
 require "encrypted_gate/version"
 
 module EncryptedGate
-  extend ActiveSupport::Concern
-
   def self.extended(base)
     base.class_eval do
       include InstanceMethods
